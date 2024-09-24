@@ -1,0 +1,125 @@
+body {
+   margin: 0; 
+}
+    #container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(14, 1fr);
+    background-image:url(images/background.jpg);
+    background-size: cover;
+    background-position:center top;
+  }
+
+  #header {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 15;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffffff;
+        padding-left: 40px;
+        padding-right: 40px;
+  }
+
+  #lien > a {
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+
+  #logo > a {
+    color: #66A692;
+    font-size:x-large;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #text-containeur {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 15;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+  }
+
+  #content-left{
+    background-color: white;
+    grid-row-start: 5;
+    grid-row-end: 11;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #content-right{
+    background-color: white;
+    grid-row-start: 5;
+    grid-row-end: 11;
+    grid-column-start: 9;
+    grid-column-end: 12;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #train {
+    border-bottom: 3px solid #66A692;
+    padding: 40px;
+    margin: 10px;
+  }
+
+  p {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .train{
+    width: 120px;
+  }
+
+  #travel > input {
+    margin-left: 30px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: rgba(207, 207, 207, 0.5);
+    border: none;
+    border-bottom: 2px solid black;
+  }
+
+ #date {
+    margin-left: 6px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: rgba(207, 207, 207, 0.5);
+    border: none;
+ }
+
+ #search {
+    background-color: #66A692;
+    width: 260px;
+    height: 40px;
+    color: #ffffff;
+    margin-left: 6px;
+    border-radius: 0.5em;
+    font-size: 15px;
+    border: none;
+ }
