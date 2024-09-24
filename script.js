@@ -25,7 +25,7 @@ document.querySelector("#search").addEventListener('click' , function () {
         <div id="train"><img src="images/notfound.png" class="train"></div>
         <div><p>No trip found</p></div>
     </div>`
-}
+    }
 )
 
 
