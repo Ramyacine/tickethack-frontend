@@ -68,18 +68,6 @@ body {
     align-items: center;
   }
 
-  #content-right{
-    background-color: white;
-    grid-row-start: 5;
-    grid-row-end: 11;
-    grid-column-start: 9;
-    grid-column-end: 12;
-    border-radius: 3%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
 
   #train {
     border-bottom: 3px solid #66A692;
@@ -189,3 +177,45 @@ body {
     background-color: rgb(233, 231, 231);
 }
 
+.voyage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 7px;
+  margin: 10px;
+  align-items: center;
+  height: 40px;
+  width: 80%;
+  margin-top: 5px;
+  background-color: antiquewhite;
+  font-size: x-large;
+}
+
+
+#content-right{
+  background-color: white;
+  grid-row-start: 5;
+  grid-row-end: 11;
+  grid-column-start: 9;
+  grid-column-end: 12;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+#book {
+  height: 30px;
+  background-color: #66A692;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: x-small;
+}
+
+#price {
+  font-weight: 550;
+}
